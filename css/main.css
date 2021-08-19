@@ -1,0 +1,177 @@
+body {
+    background: white;
+    height:auto;
+    color: blanchedalmond;
+    overflow: auto;
+}
+
+.navbar {
+    background: linear-gradient(to bottom right, black 50%, rgba(255, 255, 255, 0.767));
+}
+
+.navbar span {
+    color: rgba(130, 59, 177, 0.829);
+    font-family: 'Patrick Hand', cursive;
+    font-size: 30px;
+    padding: 0px 7px;
+}
+
+.navbar-nav .nav-link {
+    color: rgba(177, 119, 216, 0.973);
+    font-family: 'Lobster', cursive;
+
+}
+
+.navbar li:hover a {
+    background-color: rgba(178, 161, 192, 0.493);
+    border-radius: 20px;
+    color: black;
+
+}
+
+i {
+    color: rgba(45, 9, 70, 0.952);
+}
+
+/* ==============end nav===================================== */
+.home {
+    margin: 50px 0px;
+}
+
+section {
+    margin: 50px 0px 0ppx 0px;
+    background-color: #000;
+}
+.pad{
+    padding-bottom: 15px;
+}
+
+h1 {
+    color: rgba(130, 59, 177, 0.829);
+    text-align: center;
+
+}
+
+.hr {
+    background: linear-gradient(to right, rgba(75, 49, 92, 0.973), white, rgba(75, 49, 92, 0.973));
+    width: 45%;
+    margin: auto;
+    height: 2px;
+    border-radius: 20px;
+}
+
+hr {
+    border: 1px dashed rgba(177, 119, 216, 0.973);
+}
+
+.hr1 {
+    width: 30%;
+}
+
+.hr2 {
+    width: 20%;
+}
+
+.aboutheader {
+    padding: 70px 0px 0px 0px;
+    text-align: center;
+}
+
+
+
+/* ------------------------ end header--------- */
+.nav-tabs {
+    margin: 10px auto;
+    width: 50%;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+.nav-tabs .nav-link{
+border-radius: 20px;
+color: rgba(130, 59, 177, 0.829);
+}
+.nav-tabs .nav-link.active{
+    color: rgba(46, 14, 66, 0.973);
+    border-radius: 50px;
+    font-weight: 600;
+}
+.contant{
+    width: 85%;
+    height: 30vh;
+    margin: 5px 0px;
+}
+.contant img{
+    border: 2px solid rgba(177, 119, 216, 0.973);
+    border-radius: 20px;
+   
+}
+/* ====================== end gallary============= */
+.btn{
+    border-color: rgba(75, 49, 92, 0.973);
+    color:rgba(75, 49, 92, 0.973);
+ }
+ /* =================end btn=========================== */
+.Footer i{
+    font-size: 16px;
+}
+
+.site-footer{
+    background-color: #26272b;
+    padding: 45px 0px 20px 0px;
+    color: #737373;
+}
+.footer-links{
+    list-style: none;
+    padding-left: 0%;
+}
+.footer-links a{
+    color:#737373 ;
+}
+h5{
+    color: white;
+}
+.hr5{
+    border: 1px solid #737373;
+    width: 100%;
+    
+}
+.copyright-text a{
+    color:#737373 ;
+}
+.site-footer .social-icon{
+    list-style: none;
+    text-align: right;
+}
+.social-icon li{
+    display: inline-block;
+}
+.social-icon i{
+    color:#737373 ;
+   margin-left: 10px;
+    font-size: 32px;
+ 
+}
+/* ==================end footer========== */
+
+
+
+@media(max-width:750px) {
+    .home {
+        margin: 50px 0px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+   
+    .nav-tabs{
+        width: 98% !important;
+    }
+    .contant{
+       margin: 5px 23px;
+    }
+    .btn{
+        margin: 5px;
+    }
+}
